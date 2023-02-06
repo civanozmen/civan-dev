@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 55px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    padding: 35px;
+    text-align: center;
+}
+
+.container > p {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inner-container {
+    padding: 35px;
+    margin-bottom: 1.5%;
+
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 15px;
+
+    text-align: left;
+    overflow: auto;
+
+    backdrop-filter: blur(10px);
+
+    transition: .5s;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.inner-container:hover {
+    transform: skewX(-2.5deg);
+}
+
+.inner-container h2, .inner-container p {
+    margin: 1%;
+    margin-top: 0;
+}
+
+.inner-container p {
+    margin-bottom: 3%;
+    font-size: 35px;
+}
+
+.inner-container img {
+    width: 400px;
+}
+
+.inner-container img, .inner-container video {
+    border-radius: 15px;
+    float: left;
+    margin-right: 2%;
+
+    transition: .5s;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.inner-container img:hover {
+    transform: scale(1.05);
+}
+
+.button {
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 25px;
+    border-radius: 15px;
+    font-size: 20px;
+    padding-inline: 50px;
+    cursor: pointer;
+
+    transition: .5s;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-inline: 60px;
+}
+
+.model {
+    width: 520px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 25px;
+
+    transition: .2s;
+}
+
+.model:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    width: 64px;
+    margin-inline: 25px;
+    backdrop-filter: blur(5px);
+    
+    transition: .2s;
+}
+
+.icon:hover {
+    transform: scale(1.15);
+
+    cursor: pointer;
+}
+
+#jam-games {
+    color: white;
+
+    background-image: url(https://i.hizliresim.com/596el7g.png);
+    background-repeat: repeat;
+    background-attachment:fixed;
+
+    animation-name: animate;
+    animation-duration: 250s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#freelance-games {
+    color: rgb(0, 0, 0);
+
+    background-image: url(https://i.hizliresim.com/pqbuxzd.png);
+    background-repeat: repeat;
+    background-attachment:fixed;
+
+    animation-name: animate;
+    animation-duration: 250s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#models {
+    color: rgb(255, 255, 255);
+
+    background-image: url(https://i.hizliresim.com/pmljb5m.png);
+    background-repeat: repeat;
+    background-attachment:fixed;
+
+    animation-name: animate;
+    animation-duration: 250s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#contact {
+    color: rgb(0, 0, 0);
+    padding-bottom: 100px;
+
+    background-image: url(https://i.hizliresim.com/ls28awa.png);
+    background-repeat: repeat;
+    background-attachment:fixed;
+
+    animation-name: animate;
+    animation-duration: 250s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes animate {
+    from {
+      background-position : 0px -9999px;
+    }
+    to  {
+      backgorund-position : 0px 9999px;
+    }
+}
