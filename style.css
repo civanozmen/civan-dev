@@ -105,19 +105,6 @@ a {
     padding-inline: 60px;
 }
 
-.model {
-    width: 520px;
-    border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin: 25px;
-
-    transition: .2s;
-}
-
-.model:hover {
-    transform: scale(1.1);
-}
-
 .icon {
     width: 64px;
     margin-inline: 25px;
@@ -149,19 +136,6 @@ a {
     color: rgb(0, 0, 0);
 
     background-image: url(https://i.hizliresim.com/pqbuxzd.png);
-    background-repeat: repeat;
-    background-attachment:fixed;
-
-    animation-name: animate;
-    animation-duration: 250s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
-#models {
-    color: rgb(255, 255, 255);
-
-    background-image: url(https://i.hizliresim.com/pmljb5m.png);
     background-repeat: repeat;
     background-attachment:fixed;
 
